@@ -1,6 +1,6 @@
 # BlackIceMx
 BlackIceMx - Core Module carrier with MixMods/Pmod interfaces
-
+![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx.jpg)
 ![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx.png)
 
 ![BlackIceMx Schematic](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx-schematic.png)
