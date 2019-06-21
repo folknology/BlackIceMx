@@ -1593,7 +1593,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="U$1" library="BlackEdge" package="BE-CARRIER-SMD" value="BE-CARRIERSMD" x="30" y="25" smashed="yes" rot="R90"/>
 <element name="5JP" library="jumper" package="SJ" value="" x="47.1805" y="29.972" smashed="yes" rot="SR90">
-<attribute name="NAME" x="45.7835" y="26.6065" size="1.27" layer="25" ratio="10" rot="SR0"/>
+<attribute name="NAME" x="45.4025" y="26.924" size="1.27" layer="25" ratio="10" rot="SR90"/>
 <attribute name="VALUE" x="47.1805" y="30.3721" size="0.02" layer="27" rot="SR90"/>
 </element>
 <element name="COM/DBG" library="con-lstb" package="MA13-2" value="" x="30" y="2.54">
