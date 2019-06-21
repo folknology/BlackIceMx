@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.0635" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="0" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -960,134 +960,12 @@
 <vertex x="30.412403125" y="30.340234375"/>
 </polygon>
 <text x="34.3535" y="25.146" size="1.27" layer="25" font="vector" ratio="11">Mx</text>
+<text x="24.384" y="12.2555" size="1.016" layer="21" font="vector" rot="SR0">Copyright 2018
+Alan Wood
+@folknology
+www.mystorm.uk</text>
 </plain>
 <libraries>
-<library name="amino">
-<packages>
-<package name="BE-CARRIER-SMD">
-<wire x1="22.5" y1="-25" x2="-22.5" y2="-25" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-22.5" y1="-25" x2="-25" y2="-22.5" width="0.127" layer="21" style="shortdash" curve="-90"/>
-<wire x1="-25" y1="-22.5" x2="-25" y2="22.5" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-25" y1="22.5" x2="-22.5" y2="25" width="0.127" layer="21" style="shortdash" curve="-90"/>
-<wire x1="-22.5" y1="25" x2="22.5" y2="25" width="0.127" layer="21" style="shortdash"/>
-<wire x1="22.5" y1="25" x2="25" y2="22.5" width="0.127" layer="21" style="shortdash" curve="-90"/>
-<wire x1="25" y1="22.5" x2="25" y2="-22.5" width="0.127" layer="21" style="shortdash"/>
-<wire x1="25" y1="-22.5" x2="22.5" y2="-25" width="0.127" layer="21" style="shortdash" curve="-90"/>
-<pad name="P$101" x="-22.5" y="22.5" drill="2.5"/>
-<pad name="P$102" x="22.5" y="22.5" drill="2.5"/>
-<pad name="P$103" x="-22.5" y="-22.5" drill="2.5"/>
-<pad name="P$104" x="22.5" y="-22.5" drill="2.5"/>
-<smd name="P$1" x="-15.24" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<wire x1="-16" y1="22.55" x2="16" y2="22.55" width="0.127" layer="21" style="shortdash"/>
-<wire x1="16" y1="22.55" x2="16" y2="20.45" width="0.127" layer="21" style="shortdash"/>
-<wire x1="16" y1="20.45" x2="-16" y2="20.45" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-16" y1="20.45" x2="-16" y2="22.55" width="0.127" layer="21" style="shortdash"/>
-<smd name="P$2" x="-13.97" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$3" x="-12.7" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$4" x="-11.43" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$5" x="-10.16" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$6" x="-8.89" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$7" x="-7.62" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$8" x="-6.35" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$9" x="-5.08" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$10" x="-3.81" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$11" x="-2.54" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$12" x="-1.27" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$13" x="0" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$14" x="1.27" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$15" x="2.54" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$16" x="3.81" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$17" x="5.08" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$18" x="6.35" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$19" x="7.62" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$20" x="8.89" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$21" x="10.16" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$22" x="11.43" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$23" x="12.7" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$24" x="13.97" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$25" x="15.24" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$26" x="-15.24" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$27" x="-13.97" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$28" x="-12.7" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$29" x="-11.43" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$30" x="-10.16" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$31" x="-8.89" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$32" x="-7.62" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$33" x="-6.35" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$34" x="-5.08" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$35" x="-3.81" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$36" x="-2.54" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$37" x="-1.27" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$38" x="0" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$39" x="1.27" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$40" x="2.54" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$41" x="3.81" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$42" x="5.08" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$43" x="6.35" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$44" x="7.62" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$45" x="8.89" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$46" x="10.16" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$47" x="11.43" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$48" x="12.7" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$49" x="13.97" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$50" x="15.24" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$51" x="-15.24" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<wire x1="-16" y1="-20.45" x2="16" y2="-20.45" width="0.127" layer="21" style="shortdash"/>
-<wire x1="16" y1="-20.45" x2="16" y2="-22.55" width="0.127" layer="21" style="shortdash"/>
-<wire x1="16" y1="-22.55" x2="-16" y2="-22.55" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-16" y1="-22.55" x2="-16" y2="-20.45" width="0.127" layer="21" style="shortdash"/>
-<smd name="P$52" x="-13.97" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$53" x="-12.7" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$54" x="-11.43" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$55" x="-10.16" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$56" x="-8.89" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$57" x="-7.62" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$58" x="-6.35" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$59" x="-5.08" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$60" x="-3.81" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$61" x="-2.54" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$62" x="-1.27" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$63" x="0" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$64" x="1.27" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$65" x="2.54" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$66" x="3.81" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$67" x="5.08" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$68" x="6.35" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$69" x="7.62" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$70" x="8.89" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$71" x="10.16" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$72" x="11.43" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$73" x="12.7" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$74" x="13.97" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$75" x="15.24" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$76" x="-15.24" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$77" x="-13.97" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$78" x="-12.7" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$79" x="-11.43" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$80" x="-10.16" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$81" x="-8.89" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$82" x="-7.62" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$83" x="-6.35" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$84" x="-5.08" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$85" x="-3.81" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$86" x="-2.54" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$87" x="-1.27" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$88" x="0" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$89" x="1.27" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$90" x="2.54" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$91" x="3.81" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$92" x="5.08" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$93" x="6.35" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$94" x="7.62" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$95" x="8.89" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$96" x="10.16" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$97" x="11.43" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$98" x="12.7" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$99" x="13.97" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-<smd name="P$100" x="15.24" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
-</package>
-</packages>
-</library>
 <library name="con-lsta">
 <description>&lt;b&gt;Female Headers etc.&lt;/b&gt;&lt;p&gt;
 Naming:&lt;p&gt;
@@ -1378,6 +1256,134 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 </library>
+<library name="BlackEdge">
+<packages>
+<package name="BE-CARRIER-SMD">
+<wire x1="22.5" y1="-25" x2="-22.5" y2="-25" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-22.5" y1="-25" x2="-25" y2="-22.5" width="0.127" layer="21" style="shortdash" curve="-90"/>
+<wire x1="-25" y1="-22.5" x2="-25" y2="22.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-25" y1="22.5" x2="-22.5" y2="25" width="0.127" layer="21" style="shortdash" curve="-90"/>
+<wire x1="-22.5" y1="25" x2="22.5" y2="25" width="0.127" layer="21" style="shortdash"/>
+<wire x1="22.5" y1="25" x2="25" y2="22.5" width="0.127" layer="21" style="shortdash" curve="-90"/>
+<wire x1="25" y1="22.5" x2="25" y2="-22.5" width="0.127" layer="21" style="shortdash"/>
+<wire x1="25" y1="-22.5" x2="22.5" y2="-25" width="0.127" layer="21" style="shortdash" curve="-90"/>
+<pad name="P$101" x="-22.5" y="22.5" drill="2.5"/>
+<pad name="P$102" x="22.5" y="22.5" drill="2.5"/>
+<pad name="P$103" x="-22.5" y="-22.5" drill="2.5"/>
+<pad name="P$104" x="22.5" y="-22.5" drill="2.5"/>
+<smd name="P$1" x="-15.24" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<wire x1="-16" y1="22.55" x2="16" y2="22.55" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16" y1="22.55" x2="16" y2="20.45" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16" y1="20.45" x2="-16" y2="20.45" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-16" y1="20.45" x2="-16" y2="22.55" width="0.127" layer="21" style="shortdash"/>
+<smd name="P$2" x="-13.97" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$3" x="-12.7" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$4" x="-11.43" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$5" x="-10.16" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$6" x="-8.89" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$7" x="-7.62" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$8" x="-6.35" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$9" x="-5.08" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$10" x="-3.81" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$11" x="-2.54" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$12" x="-1.27" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$13" x="0" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$14" x="1.27" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$15" x="2.54" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$16" x="3.81" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$17" x="5.08" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$18" x="6.35" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$19" x="7.62" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$20" x="8.89" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$21" x="10.16" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$22" x="11.43" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$23" x="12.7" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$24" x="13.97" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$25" x="15.24" y="23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$26" x="-15.24" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$27" x="-13.97" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$28" x="-12.7" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$29" x="-11.43" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$30" x="-10.16" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$31" x="-8.89" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$32" x="-7.62" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$33" x="-6.35" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$34" x="-5.08" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$35" x="-3.81" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$36" x="-2.54" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$37" x="-1.27" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$38" x="0" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$39" x="1.27" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$40" x="2.54" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$41" x="3.81" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$42" x="5.08" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$43" x="6.35" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$44" x="7.62" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$45" x="8.89" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$46" x="10.16" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$47" x="11.43" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$48" x="12.7" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$49" x="13.97" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$50" x="15.24" y="19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$51" x="-15.24" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<wire x1="-16" y1="-20.45" x2="16" y2="-20.45" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16" y1="-20.45" x2="16" y2="-22.55" width="0.127" layer="21" style="shortdash"/>
+<wire x1="16" y1="-22.55" x2="-16" y2="-22.55" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-16" y1="-22.55" x2="-16" y2="-20.45" width="0.127" layer="21" style="shortdash"/>
+<smd name="P$52" x="-13.97" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$53" x="-12.7" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$54" x="-11.43" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$55" x="-10.16" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$56" x="-8.89" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$57" x="-7.62" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$58" x="-6.35" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$59" x="-5.08" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$60" x="-3.81" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$61" x="-2.54" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$62" x="-1.27" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$63" x="0" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$64" x="1.27" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$65" x="2.54" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$66" x="3.81" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$67" x="5.08" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$68" x="6.35" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$69" x="7.62" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$70" x="8.89" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$71" x="10.16" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$72" x="11.43" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$73" x="12.7" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$74" x="13.97" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$75" x="15.24" y="-19.595" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$76" x="-15.24" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$77" x="-13.97" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$78" x="-12.7" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$79" x="-11.43" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$80" x="-10.16" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$81" x="-8.89" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$82" x="-7.62" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$83" x="-6.35" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$84" x="-5.08" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$85" x="-3.81" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$86" x="-2.54" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$87" x="-1.27" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$88" x="0" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$89" x="1.27" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$90" x="2.54" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$91" x="3.81" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$92" x="5.08" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$93" x="6.35" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$94" x="7.62" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$95" x="8.89" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$96" x="10.16" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$97" x="11.43" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$98" x="12.7" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$99" x="13.97" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<smd name="P$100" x="15.24" y="-23.405" dx="1.905" dy="0.635" layer="1" rot="R90"/>
+<text x="-2.54" y="16.51" size="1.27" layer="21">Digital</text>
+<text x="-2.54" y="-17.78" size="1.27" layer="21">Mixed</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1585,12 +1591,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="52.863" y="44.342" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="62.199" y="5.95" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$1" library="amino" package="BE-CARRIER-SMD" value="BE-CARRIERSMD" x="30" y="25" smashed="yes" rot="R90"/>
+<element name="U$1" library="BlackEdge" package="BE-CARRIER-SMD" value="BE-CARRIERSMD" x="30" y="25" smashed="yes" rot="R90"/>
 <element name="5JP" library="jumper" package="SJ" value="" x="47.1805" y="29.972" smashed="yes" rot="SR90">
 <attribute name="NAME" x="45.7835" y="26.6065" size="1.27" layer="25" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="47.1805" y="30.3721" size="0.02" layer="27" rot="SR90"/>
 </element>
-<element name="COMS/DBG" library="con-lstb" package="MA13-2" value="" x="30" y="2.54">
+<element name="COM/DBG" library="con-lstb" package="MA13-2" value="" x="30" y="2.54">
 <attribute name="MPN" value="" x="30" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="30" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="30" y="2.54" size="1.778" layer="27" display="off"/>
@@ -1676,7 +1682,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.975" y1="13.6525" x2="53.2765" y2="12.954" width="0.254" layer="16"/>
 <wire x1="53.2765" y1="12.954" x2="53.2765" y2="6.858" width="0.254" layer="16"/>
 <wire x1="53.2765" y1="6.858" x2="52.8955" y2="6.604" width="0.254" layer="16"/>
-<contactref element="COMS/DBG" pad="8"/>
+<contactref element="COM/DBG" pad="8"/>
 <wire x1="52.8955" y1="6.604" x2="23.8915" y2="6.604" width="0.254" layer="16"/>
 <wire x1="23.8915" y1="6.604" x2="22.431" y2="5.08" width="0.254" layer="16"/>
 <wire x1="22.431" y1="5.08" x2="22.431" y2="3.861" width="0.254" layer="16"/>
@@ -1717,7 +1723,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="54.6735" y1="12.2555" x2="53.975" y2="11.557" width="0.254" layer="16"/>
 <wire x1="53.975" y1="11.557" x2="53.975" y2="6.6675" width="0.254" layer="16"/>
 <wire x1="53.975" y1="6.6675" x2="53.2765" y2="6.0325" width="0.254" layer="16"/>
-<contactref element="COMS/DBG" pad="10"/>
+<contactref element="COM/DBG" pad="10"/>
 <wire x1="53.2765" y1="6.0325" x2="27.1425" y2="6.0325" width="0.254" layer="16"/>
 <wire x1="27.1425" y1="6.0325" x2="24.92" y2="3.81" width="0.254" layer="16"/>
 </signal>
@@ -1742,7 +1748,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.673" y1="25.0825" x2="49.5935" y2="24.003" width="0.254" layer="16"/>
 <wire x1="49.5935" y1="24.003" x2="46.863" y2="14.097" width="0.254" layer="16"/>
 <wire x1="46.863" y1="14.097" x2="46.1645" y2="11.8745" width="0.254" layer="16"/>
-<contactref element="COMS/DBG" pad="12"/>
+<contactref element="COM/DBG" pad="12"/>
 <wire x1="46.1645" y1="11.8745" x2="29.0985" y2="11.8745" width="0.254" layer="16"/>
 <wire x1="29.0985" y1="11.8745" x2="27.4475" y2="10.287" width="0.254" layer="16"/>
 <via x="27.4475" y="10.287" extent="1-16" drill="0.3" shape="octagon"/>
@@ -1764,8 +1770,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.276" y1="24.8285" x2="51.6255" y2="27.559" width="0.4064" layer="16"/>
 <via x="51.6255" y="27.559" extent="1-16" drill="0.3" shape="octagon"/>
 <wire x1="51.6255" y1="27.559" x2="52.0065" y2="27.3685" width="0.3048" layer="1"/>
-<contactref element="COMS/DBG" pad="2"/>
-<contactref element="COMS/DBG" pad="4"/>
+<contactref element="COM/DBG" pad="2"/>
+<contactref element="COM/DBG" pad="4"/>
 <wire x1="45.7835" y1="12.573" x2="22.812" y2="12.573" width="0.4064" layer="16"/>
 <wire x1="22.812" y1="12.573" x2="17.2875" y2="7.0485" width="0.4064" layer="16"/>
 <wire x1="17.2875" y1="7.0485" x2="17.2875" y2="3.8225" width="0.4064" layer="16"/>
@@ -1811,7 +1817,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.4825" y1="23.8125" x2="49.8475" y2="23.1775" width="0.254" layer="16"/>
 <wire x1="49.8475" y1="23.1775" x2="47.3075" y2="13.97" width="0.254" layer="16"/>
 <wire x1="47.3075" y1="13.97" x2="46.5455" y2="11.2395" width="0.254" layer="16"/>
-<contactref element="COMS/DBG" pad="16"/>
+<contactref element="COM/DBG" pad="16"/>
 <wire x1="46.5455" y1="11.2395" x2="33.4165" y2="11.2395" width="0.254" layer="16"/>
 <wire x1="33.4165" y1="11.2395" x2="32.5275" y2="10.3505" width="0.254" layer="16"/>
 <via x="32.5275" y="10.3505" extent="1-16" drill="0.3" shape="octagon"/>
@@ -1827,7 +1833,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.419" y1="22.479" x2="50.038" y2="22.098" width="0.254" layer="16"/>
 <wire x1="50.038" y1="22.098" x2="47.752" y2="13.716" width="0.254" layer="16"/>
 <wire x1="47.752" y1="13.716" x2="46.9265" y2="10.668" width="0.254" layer="16"/>
-<contactref element="COMS/DBG" pad="18"/>
+<contactref element="COM/DBG" pad="18"/>
 <wire x1="46.9265" y1="10.668" x2="35.131" y2="10.668" width="0.254" layer="16"/>
 <via x="35.131" y="10.668" extent="1-16" drill="0.3" shape="octagon"/>
 <wire x1="35.131" y1="10.668" x2="35.131" y2="3.861" width="0.254" layer="1"/>
@@ -1842,7 +1848,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.546" y1="21.209" x2="50.292" y2="20.955" width="0.254" layer="16"/>
 <wire x1="50.292" y1="20.955" x2="48.1965" y2="13.6525" width="0.254" layer="16"/>
 <wire x1="48.1965" y1="13.6525" x2="47.3075" y2="10.0965" width="0.254" layer="16"/>
-<contactref element="COMS/DBG" pad="15"/>
+<contactref element="COM/DBG" pad="15"/>
 <wire x1="47.3075" y1="10.0965" x2="33.734" y2="10.0965" width="0.254" layer="16"/>
 <via x="33.734" y="10.0965" extent="1-16" drill="0.3" shape="octagon"/>
 <wire x1="33.734" y1="10.0965" x2="33.734" y2="3.0355" width="0.254" layer="1"/>
@@ -2410,11 +2416,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="MX1" pad="3"/>
 <contactref element="MX1" pad="21"/>
 <wire x1="6.595" y1="40.24" x2="3.77" y2="40.24" width="0.6096" layer="1"/>
-<contactref element="COMS/DBG" pad="6"/>
-<contactref element="COMS/DBG" pad="9"/>
-<contactref element="COMS/DBG" pad="14"/>
-<contactref element="COMS/DBG" pad="20"/>
-<contactref element="COMS/DBG" pad="25"/>
+<contactref element="COM/DBG" pad="6"/>
+<contactref element="COM/DBG" pad="9"/>
+<contactref element="COM/DBG" pad="14"/>
+<contactref element="COM/DBG" pad="20"/>
+<contactref element="COM/DBG" pad="25"/>
 </signal>
 <signal name="5V">
 <contactref element="5JP" pad="2"/>
@@ -2448,7 +2454,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30" y1="41.247" x2="30" y2="42.446" width="0.254" layer="16"/>
 </signal>
 <signal name="!RESET">
-<contactref element="COMS/DBG" pad="13"/>
+<contactref element="COM/DBG" pad="13"/>
 <contactref element="U$1" pad="P$54"/>
 <wire x1="49.595" y1="13.57" x2="50.8825" y2="13.57" width="0.254" layer="1"/>
 <wire x1="50.8825" y1="13.57" x2="50.9905" y2="13.5255" width="0.254" layer="1"/>
@@ -2462,7 +2468,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.194" y1="3.226" x2="30" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="SWDIO">
-<contactref element="COMS/DBG" pad="11"/>
+<contactref element="COM/DBG" pad="11"/>
 <contactref element="U$1" pad="P$52"/>
 <wire x1="49.595" y1="11.03" x2="50.9715" y2="11.03" width="0.254" layer="1"/>
 <wire x1="50.9715" y1="11.03" x2="50.9905" y2="11.049" width="0.254" layer="1"/>
@@ -2475,7 +2481,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="28.7175" y1="3.1625" x2="27.46" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="SWCLK">
-<contactref element="COMS/DBG" pad="7"/>
+<contactref element="COM/DBG" pad="7"/>
 <contactref element="U$1" pad="P$53"/>
 <wire x1="49.595" y1="12.3" x2="50.8445" y2="12.3" width="0.254" layer="1"/>
 <wire x1="50.8445" y1="12.3" x2="50.9905" y2="12.319" width="0.254" layer="1"/>
@@ -2491,10 +2497,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.6375" y1="2.5275" x2="22.38" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="DONE">
-<contactref element="COMS/DBG" pad="22"/>
+<contactref element="COM/DBG" pad="22"/>
 </signal>
 <signal name="SCL">
-<contactref element="COMS/DBG" pad="5"/>
+<contactref element="COM/DBG" pad="5"/>
 <contactref element="U$1" pad="P$83"/>
 <wire x1="53.405" y1="18.65" x2="51.797" y2="18.65" width="0.254" layer="1"/>
 <wire x1="51.797" y1="18.65" x2="51.7525" y2="18.6055" width="0.254" layer="1"/>
@@ -2510,7 +2516,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.288" y1="2.718" x2="19.84" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="SDA">
-<contactref element="COMS/DBG" pad="3"/>
+<contactref element="COM/DBG" pad="3"/>
 <contactref element="U$1" pad="P$84"/>
 <wire x1="53.405" y1="19.92" x2="51.708" y2="19.92" width="0.254" layer="1"/>
 <wire x1="51.708" y1="19.92" x2="51.689" y2="19.939" width="0.254" layer="1"/>
@@ -2526,7 +2532,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="18.5575" y="5.5245" extent="1-16" drill="0.3" shape="octagon"/>
 </signal>
 <signal name="ESCK">
-<contactref element="COMS/DBG" pad="23"/>
+<contactref element="COM/DBG" pad="23"/>
 <contactref element="U$1" pad="P$80"/>
 <wire x1="53.405" y1="14.84" x2="54.845" y2="14.84" width="0.254" layer="1"/>
 <wire x1="54.845" y1="14.84" x2="54.864" y2="14.859" width="0.254" layer="1"/>
@@ -2542,7 +2548,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="43.7035" y1="1.27" x2="42.7" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="EMISO">
-<contactref element="COMS/DBG" pad="21"/>
+<contactref element="COM/DBG" pad="21"/>
 <contactref element="U$1" pad="P$81"/>
 <wire x1="53.405" y1="16.11" x2="52.1525" y2="16.11" width="0.254" layer="1"/>
 <wire x1="52.1525" y1="16.11" x2="52.0065" y2="16.129" width="0.254" layer="1"/>
@@ -2563,7 +2569,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="41.2905" y1="2.4765" x2="40.16" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="EMOSI">
-<contactref element="COMS/DBG" pad="19"/>
+<contactref element="COM/DBG" pad="19"/>
 <contactref element="U$1" pad="P$82"/>
 <wire x1="53.405" y1="17.38" x2="51.6445" y2="17.38" width="0.254" layer="1"/>
 <wire x1="51.6445" y1="17.38" x2="51.562" y2="17.4625" width="0.254" layer="1"/>
@@ -2583,7 +2589,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.0045" y1="2.718" x2="37.62" y2="1.27" width="0.254" layer="1"/>
 </signal>
 <signal name="!ESS">
-<contactref element="COMS/DBG" pad="24"/>
+<contactref element="COM/DBG" pad="24"/>
 <contactref element="U$1" pad="P$77"/>
 <wire x1="53.405" y1="11.03" x2="54.845" y2="11.03" width="0.254" layer="1"/>
 <wire x1="54.845" y1="11.03" x2="54.864" y2="11.049" width="0.254" layer="1"/>
@@ -2599,4 +2605,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
