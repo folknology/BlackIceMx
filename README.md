@@ -9,7 +9,8 @@ Needs to be combined with a Core module, for example [IceCore](https://github.co
 
 ![BlackIce Mx with core](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx-with-Core.jpg)
 
-Supports MixMods
+Supports MixMods (in addition to Pmods
+
 ![BlackIce Mx fully loaded](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx-Fully loaded.JPG)
 
 
