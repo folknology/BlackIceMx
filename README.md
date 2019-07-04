@@ -7,10 +7,10 @@ BlackIceMx - Core Module carrier with MixMods/Pmod interfaces
 
 Needs to be combined with a Core module, for example [IceCore](https://github.com/folknology/IceCore)
 
-![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIce-with-Core.JPG)
+![BlackIce Mx with core](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx-with-Core.jpg)
 
 Supports MixMods
-![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx-Fully loaded.JPG)
+![BlackIce Mx fully loaded](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx-Fully loaded.JPG)
 
 
 Supports the [BlackEdge connectivity](https://github.com/folknology/BlackEdge) core modules
