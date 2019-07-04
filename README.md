@@ -11,7 +11,7 @@ Needs to be combined with a Core module, for example [IceCore](https://github.co
 
 Supports MixMods (in addition to Pmods
 
-![BlackIce Mx fully loaded](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx-Fully loaded.JPG)
+![BlackIce Mx fully loaded](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx-Fully-loaded.JPG)
 
 
 Supports the [BlackEdge connectivity](https://github.com/folknology/BlackEdge) core modules
