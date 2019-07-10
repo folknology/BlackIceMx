@@ -3,6 +3,9 @@ BlackIceMx - Core Module carrier with MixMods/Pmod interfaces
 ![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/BlackIceMx.jpg)
 ![BlackIce Mx](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx.png)
 
+[Get BlackIce Mx from Tindie](https://www.tindie.com/products/Folknology/blackice-mx/)
+
+
 ![BlackIceMx Schematic](https://github.com/folknology/BlackIceMx/blob/master/cad/BlackIceMx-schematic.png)
 
 Needs to be combined with a Core module, for example [IceCore](https://github.com/folknology/IceCore)
